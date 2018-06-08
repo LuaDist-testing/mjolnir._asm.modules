@@ -1,3 +1,5 @@
+-- This file was automatically generated for the LuaDist project.
+
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
@@ -15,19 +17,25 @@ version = "0.4-1"
 local url = "github.com/asmagill/mjolnir_asm._asm"
 local desc = "Module versioning for Mjolnir."
 
-source = {url = "git://" .. url, dir = "mjolnir_asm._asm/modules"}
-description = {
-  summary = desc,
-  detailed = [[
-Provides functions for getting version information for mjolnir modules
-(actually all luarocks) as well as allow for installation and removal
-of modules.
-
-Also provides command line tool for use outside of mjolnir.
-]],
-  homepage = "https://" .. url,
-  license = "MIT",
+-- LuaDist source
+source = {
+  tag = "0.4-1",
+  url = "git://github.com/LuaDist-testing/mjolnir._asm.modules.git"
 }
+-- Original source
+-- source = {url = "git://" .. url, dir = "mjolnir_asm._asm/modules"}
+-- description = {
+--   summary = desc,
+--   detailed = [[
+-- Provides functions for getting version information for mjolnir modules
+-- (actually all luarocks) as well as allow for installation and removal
+-- of modules.
+-- 
+-- Also provides command line tool for use outside of mjolnir.
+-- ]],
+--   homepage = "https://" .. url,
+--   license = "MIT",
+-- }
 
 -- Dependencies:
 
