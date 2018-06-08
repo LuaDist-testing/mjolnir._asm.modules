@@ -10,7 +10,7 @@ package = "mjolnir._asm.modules"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "0.2-1"
+version = "0.3-1"
 
 -- General metadata:
 
@@ -19,14 +19,20 @@ local desc = "Module versioning for Mjolnir."
 
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/mjolnir._asm.modules.git"
 }
 -- Original source
 -- source = {url = "git://" .. url}
 -- description = {
 --   summary = desc,
---   detailed = desc,
+--   detailed = [[
+-- Provides functions for getting version information for mjolnir modules
+-- (actually all luarocks) as well as allow for installation and removal
+-- of modules.
+-- 
+-- Also provides command line tool for use outside of mjolnir.
+-- ]],
 --   homepage = "https://" .. url,
 --   license = "MIT",
 -- }
